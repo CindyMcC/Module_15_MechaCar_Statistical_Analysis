@@ -7,3 +7,9 @@ lreg <- lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_cleara
 sum_lreg <- summary(lreg)
 
 
+#Deliverable 2: Create Visualizations for the Trip Analysis
+scoil_table <- read.csv(file='Suspension_Coil.csv',check.names=F,stringsAsFactors = F)
+
+total_summary <- scoil_table %>% summarize(Mean=mean(PSI), Median=median(PSI), Variance=var(PSI), SD=sd(PSI), .groups = "keep")
+
+lot_summary <- scoil_table %>% group_by(Manufacturing_Lot) %>% summarize(Mean=mean(PSI), Median=median(PSI), Variance=var(PSI), SD=sd(PSI), .groups = "keep")
