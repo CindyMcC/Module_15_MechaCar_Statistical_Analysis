@@ -25,7 +25,7 @@ and reviewed for any impact to the manufacture of the MechaCar.  A proposed addi
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   <img src="static/images/1_Summary_1.png" width="500" heigth="400"> 
 </br></br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   <img src="static/images/1_Summary_1.png" width="500" heigth="400"> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   <img src="static/images/1_Summary_2.png" width="500" heigth="400"> 
 </br></br>
 
 
